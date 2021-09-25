@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // Задача 3
+        "use strict";
+        let a = prompt('Введите первое число от -10 до 10');
+        let b = prompt('Введите второе число от -10 до 10');
+
+        if (a >= 0 && b >= 0) {
+            alert("Разность ваших чисел равна " + (a - b));
+        } else if (a < 0 && b < 0) {
+            alert("Сумма ваших чисел равна " + (a * b));
+        }
+
+        // Задача 4
+        //Сложение    
+        function sum(num1, num2) {
+            return num1 + num2;
+        }
+
+        let result1 = sum(1, 2);
+        alert(result1);
+
+        //Вычитание 
+        function diff(num3, num4) {
+            return num3 - num4;
+        }
+
+        let result2 = diff(3, 2);
+        alert(result2);
+
+        //Деление
+        function div(num5, num6) {
+            return num5 / num6;
+        }
+
+        let result3 = div(5, 2);
+        alert(result3);
+
+
+        //Умножение
+        function mult(num7, num8) {
+            return num7 * num8;
+        }
+
+        let result4 = mult(3, 2);
+        alert(result4);
+
+
+    </script>
+</body>
+
+</html>
